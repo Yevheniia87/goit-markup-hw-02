@@ -1,0 +1,133 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+footer {
+  background: #2f303a;
+}
+.header-container {
+  background: #ffffff;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1, 192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-style-header {
+  color: #212121;
+}
+.navigation-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 143;
+  letter-spacing: 0.02em;
+}
+.navigation-team {
+  color: #212121;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: #2196f3;
+}
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 143;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+  color: #2196f3;
+}
+.main-title {
+  background: #2f303a;
+}
+.headline {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 3636;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+}
+.modal-button-link {
+  background: #2196f3;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.modal-button-link:hover,
+.modal-button-link:focus {
+  background: #2196f3;
+}
+.benefits {
+  background: #e5e5e5;
+}
+.title-benefits {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 143;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.description-texts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.options {
+  background: #e5e5e5;
+}
+.options-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team {
+  background: #f5f4fa;
+}
+.team-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.workers {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.profession {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.logo-style-footer {
+  color: #ffffff;
+}
+.navigation-block {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
