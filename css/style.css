@@ -1,8 +1,17 @@
+:root {
+  --main-color: #ffffff;
+}
 body {
   font-family: "Roboto", sans-serif;
+  background-size: contain;
 }
+a {
+  text-decoration: none;
+}
+/* ======== HEADER ======= */
+
 .header-container {
-  background: #ffffff;
+  background: var(--main-color);
 }
 .logo {
   font-family: Raleway;
@@ -11,34 +20,50 @@ body {
   line-height: 1, 192;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
 .logo-style-header {
   color: #212121;
 }
 .navigation-container {
+  list-style-type: none;
+}
+.navigation-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 143;
   letter-spacing: 0.02em;
-}
-.navigation-list {
   color: #212121;
+  cursor: pointer;
+  margin-right: 50px;
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
   color: #2196f3;
 }
-.contacts-list {
+.contacts-block {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 143;
   letter-spacing: 0.02em;
   color: #757575;
 }
+.contacts-list {
+  list-style-type: none;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 50px;
+  flex-direction: row-reverse;
+}
 .contacts-list-link:hover,
 .contacts-list-link:focus {
   color: #2196f3;
 }
+/* ====== END HEADER ====== */
+
+/* ====== HERO ====== */
+
 .main-title {
   background: #2f303a;
 }
@@ -49,6 +74,7 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   color: #ffffff;
+  width: 696px;
 }
 .modal-button-link {
   background: #2196f3;
@@ -63,8 +89,17 @@ body {
 .modal-button-link:focus {
   background: #2196f3;
 }
+/* ====== END HERO ====== */
+
+/* ====== BENEFITS ====== */
 .benefits {
-  background: #e5e5e5;
+  background: var(--main-color);
+}
+.text-container {
+  display: flex;
+}
+.description {
+  list-style-type: none;
 }
 .title-benefits {
   font-weight: 700;
@@ -80,8 +115,11 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+/* ====== END BENEFITS ====== */
+
+/* ====== MISSION ====== */
 .options {
-  background: #e5e5e5;
+  background: #ffffff;
 }
 .options-title {
   font-weight: 700;
@@ -91,6 +129,20 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.images-container {
+  display: flex;
+}
+.images {
+  width: 370px;
+  list-style-type: none;
+}
+.foto-tasks {
+  margin-right: 30px;
+  width: 370px;
+}
+/* ====== END MISSION ====== */
+
+/* ====== TEAM ====== */
 .team {
   background: #f5f4fa;
 }
@@ -101,6 +153,15 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
+}
+.team-container {
+  display: flex;
+}
+.team-list {
+  list-style-type: none;
+}
+.foto {
+  width: 270px;
 }
 .specialists {
   font-weight: 500;
@@ -118,17 +179,21 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+/* ====== END TEAM ====== */
+
+/* ====== FOOTER ====== */
 .footer {
   background: #2f303a;
 }
-
 .logo-style-footer {
   color: #ffffff;
 }
-.navigation-block {
+.navigation-address {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 714;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+/* ====== END FOOTER ====== */

@@ -1,8 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+a {
+  text-decoration: none;
+}
+/* ====== HEADER ====== */
 .header-container {
-  background: #ffffff;
+  background: var(--main-color);
 }
 .logo {
   font-family: Raleway;
@@ -11,6 +15,7 @@ body {
   line-height: 1, 192;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
 .logo-style-header {
   color: #212121;
@@ -20,6 +25,7 @@ body {
   font-size: 14px;
   line-height: 1, 143;
   letter-spacing: 0.02em;
+  list-style-type: none;
 }
 .navigation-list {
   color: #212121;
@@ -34,12 +40,20 @@ body {
   line-height: 1, 143;
   letter-spacing: 0.02em;
   color: #757575;
+  list-style-type: none;
 }
 .contacts-list-link:hover,
 .contacts-list-link:focus {
   color: #2196f3;
 }
-.btn-list-link {
+/* ====== END HEADER ====== */
+
+/* ====== NAVIGATION ====== */
+.btn-block {
+  display: flex;
+  list-style-type: none;
+}
+.btn-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 625;
@@ -52,13 +66,22 @@ body {
   background: #2196f3;
   color: #ffffff;
 }
+/* ====== END NAVIGATION ====== */
+
+/* ====== GALLERY ====== */
+.gallery-list {
+  list-style-type: none;
+}
+.foto-gallery {
+  width: 370px;
+}
 .gallery-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  background: #ffffff;
+  background: var(--main-color);
 }
 .description {
   font-weight: 500;
@@ -66,8 +89,11 @@ body {
   line-height: 1, 875;
   letter-spacing: 0.03em;
   color: #757575;
-  background: #ffffff;
+  background: var(--main-color);
 }
+/* ====== END GALLERY ======= */
+
+/* ====== FOOTER ====== */
 .footer {
   background: #2f303a;
 }
@@ -75,9 +101,14 @@ body {
   color: #ffffff;
 }
 .navigation-block {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 714;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+.contacts-info {
+  list-style-type: none;
+}
+/* ====== END FOOTER ====== */
