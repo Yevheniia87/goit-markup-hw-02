@@ -50,14 +50,17 @@ img {
 }
 .logotype {
   font-family: Raleway;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.174;
   letter-spacing: 0.03em;
   color: var(--logo-span);
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 25px;
+  width: 145px;
+  margin-right: 93px;
+  cursor: pointer;
 }
 .logo-img {
   color: var(--logo-nav-header);
@@ -71,7 +74,6 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-  cursor: pointer;
 }
 .navigation-list {
   display: flex;
@@ -220,13 +222,20 @@ img {
   color: var(--main-color);
 }
 .logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.174;
+  letter-spacing: 0.03em;
   color: var(--logo-span);
+  text-decoration: none;
+  width: 145px;
 }
 .logo-bottom {
   margin-bottom: 20px;
 }
 .address {
-  font-style: normal;
+  font-style: 500;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.714;
@@ -237,6 +246,9 @@ img {
 }
 .contacts-list-link {
   color: var(--main-color);
+}
+.contacts_list {
+  color: rgba(255, 255, 255, 0.6);
 }
 .contacts-list-link:hover,
 .contacts-list-link:focus {
